@@ -15,10 +15,9 @@
 }
 
 .footer {
-  display: flex;
+  display: block;
   position: relative;
   bottom: 20px;
-  flex: 1;
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
