@@ -11,7 +11,7 @@
   flex: 25;
   background: var(--light-grey);
   display: flex;
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .footer {
