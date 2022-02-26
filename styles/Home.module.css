@@ -12,6 +12,7 @@
   background: var(--light-grey);
   display: flex;
   max-width: 80%;
+  margin-right: 1rem;
 }
 
 .footer {
@@ -29,6 +30,9 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+}
+.footer .logo{
+  background: #fff;
 }
 
 @media (max-width: 600px) {
