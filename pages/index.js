@@ -1,22 +1,23 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Sidebar from "../components/Sidebar"
+import Sidebar from "../components/Sidebar";
 export default function Home() {
   return (
-    <div className={styles.wrapper}>
-      <Sidebar />
-      <main className={styles.main}>
-        {/**
-         * conversaton list
-         */}
-        conversation list
-        {/**
-         * chat view
-         */}
-         chat view
-      </main>
-
+    <>
+      <div className={styles.wrapper}>
+        <Sidebar />
+        <main className={styles.main}>
+          {/**
+           * conversaton list
+           */}
+          conversation list
+          {/**
+           * chat view
+           */}
+          chat view
+        </main>
+      </div>
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -29,6 +30,6 @@ export default function Home() {
           </span>
         </a>
       </footer>
-    </div>
+    </>
   );
 }
