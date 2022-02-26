@@ -1,16 +1,17 @@
-.container {
-  padding: 0 2rem;
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
 }
 
 .main {
-  min-height: 80vh;
+  height: 100%;
   overflow-y: scroll;
-  padding: 4rem 0;
+  position: relative;
   flex: 25;
+  background: var(--light-grey);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 100vw;
 }
 
 .footer {
